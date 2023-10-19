@@ -310,7 +310,7 @@ export default function App() {
   console.log(count2); // "NO DATA if first argument are null or undefined"
 
   ////////////////////////
-  // soptional chaining //
+  // optional chaining //
   ////////////////////////
 
   books = getBook(3);
