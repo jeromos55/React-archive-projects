@@ -15,12 +15,12 @@ ENTRYPOINT [ "npm", "start" ]
 
 
 # BUILD IMAGE
-# ----------------
+# --------------------
 # docker image build . -t node18-reactjs-app-alpine
 
 
 # RUN CONTAINER
-# ------------------
+# ---------------------
 
 # FOR LINUX
 # docker container run -p 3000:3000 -v "$PWD/public":/server/my-app/public -v "$PWD/src":/server/my-app/src node18-reactjs-app-alpine
