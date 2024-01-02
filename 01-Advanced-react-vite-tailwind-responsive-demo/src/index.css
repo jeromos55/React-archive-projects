@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  /* text-align: center; */
+}
+
+p {
+  font-weight: 300;
+  font-size: 1rem;
+  /* text-align: center; */
+}
+
+section {
+  margin: 2rem;
+  padding: 1rem;
+}
