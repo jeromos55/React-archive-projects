@@ -13,27 +13,27 @@ export default function App() {
         "adventure",
         "fiction",
         "novels",
-        "literature"
+        "literature",
       ],
       hasMovieAdaptation: true,
       pages: 1216,
       translations: {
         spanish: "El señor de los anillos",
         chinese: "魔戒",
-        french: "Le Seigneur des anneaux"
+        french: "Le Seigneur des anneaux",
       },
       reviews: {
         goodreads: {
           rating: 4.52,
           ratingsCount: 630994,
-          reviewsCount: 13417
+          reviewsCount: 13417,
         },
         librarything: {
           rating: 4.53,
           ratingsCount: 47166,
-          reviewsCount: 452
-        }
-      }
+          reviewsCount: 452,
+        },
+      },
     },
     {
       id: 2,
@@ -45,7 +45,7 @@ export default function App() {
         "humor",
         "speculative fiction",
         "short stories",
-        "fantasy"
+        "fantasy",
       ],
       hasMovieAdaptation: false,
       pages: 295,
@@ -54,14 +54,14 @@ export default function App() {
         goodreads: {
           rating: 4.16,
           ratingsCount: 11663,
-          reviewsCount: 812
+          reviewsCount: 812,
         },
         librarything: {
           rating: 4.13,
           ratingsCount: 2434,
-          reviewsCount: 0
-        }
-      }
+          reviewsCount: 0,
+        },
+      },
     },
     {
       id: 3,
@@ -72,15 +72,15 @@ export default function App() {
       hasMovieAdaptation: true,
       pages: 658,
       translations: {
-        spanish: ""
+        spanish: "",
       },
       reviews: {
         goodreads: {
           rating: 4.25,
           ratingsCount: 1142893,
-          reviewsCount: 49701
-        }
-      }
+          reviewsCount: 49701,
+        },
+      },
     },
     {
       id: 4,
@@ -94,20 +94,20 @@ export default function App() {
         spanish: "Harry Potter y la piedra filosofal",
         korean: "해리 포터와 마법사의 돌",
         bengali: "হ্যারি পটার এন্ড দ্য ফিলোসফার্স স্টোন",
-        portuguese: "Harry Potter e a Pedra Filosofal"
+        portuguese: "Harry Potter e a Pedra Filosofal",
       },
       reviews: {
         goodreads: {
           rating: 4.47,
           ratingsCount: 8910059,
-          reviewsCount: 140625
+          reviewsCount: 140625,
         },
         librarything: {
           rating: 4.29,
           ratingsCount: 120941,
-          reviewsCount: 1960
-        }
-      }
+          reviewsCount: 1960,
+        },
+      },
     },
     {
       id: 5,
@@ -121,21 +121,21 @@ export default function App() {
         korean: "왕좌의 게임",
         polish: "Gra o tron",
         portuguese: "A Guerra dos Tronos",
-        spanish: "Juego de tronos"
+        spanish: "Juego de tronos",
       },
       reviews: {
         goodreads: {
           rating: 4.44,
           ratingsCount: 2295233,
-          reviewsCount: 59058
+          reviewsCount: 59058,
         },
         librarything: {
           rating: 4.36,
           ratingsCount: 38358,
-          reviewsCount: 1095
-        }
-      }
-    }
+          reviewsCount: 1095,
+        },
+      },
+    },
   ];
 
   function getBook(id) {
@@ -200,7 +200,7 @@ export default function App() {
     //-- adding a new property
     moviePublicationDate: "2023-09-23",
     //-- overwriting an existing one
-    pages: 1210
+    pages: 1210,
   };
   //-- adding some new property to updatedBooks
   console.log(updatedBook);
@@ -338,7 +338,7 @@ export default function App() {
   const essentialData = books.map((book) => ({
     title: book.title,
     author: book.author,
-    reviewCount: getTotalRevieWCount(book)
+    reviewCount: getTotalRevieWCount(book),
   }));
   console.log(essentialData);
 
@@ -404,7 +404,7 @@ export default function App() {
   const newBook = {
     id: 6,
     title: "Harry Potter and The Chamber of Secrets",
-    auther: "J. K. Rowling"
+    auther: "J. K. Rowling",
   };
   const booksAfterAdd = [...books, newBook];
   console.log(booksAfterAdd);
